@@ -9,6 +9,7 @@ import java.util.RandomAccess;
 
 public class Main {
     public static void sortind(RandomAccessFile d, int[] ind) throws IOException {
+        // hfjke
         int k,t,x,y;
         d.seek(0);//переход в начало файла
         for(int i=0; i<ind.length-1; i++){//основной цикл сортировки, проходящий последовательно через все элементы массива
